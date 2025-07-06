@@ -6,7 +6,7 @@ Tool subject
 
 # Check for root
 if [ "$EUID" -ne 0 ]; then
-  echo "[!] root chala sarfraz"
+  echo "[!] root to start"
   exit
 fi
 
